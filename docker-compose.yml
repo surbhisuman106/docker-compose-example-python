@@ -3,6 +3,6 @@ services:
   web:
     build: .
     ports:
-      - "8209:5000"
+      - "8229:5000"
   redis:
     image: "redis:alpine"
